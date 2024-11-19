@@ -4,9 +4,33 @@ A Django middleware that redirects requests based on the current view name for n
 
 ## Installation
 
+## Install a Specific Release
+
+To install a specific release, replace `<tag>` with the desired version tag (e.g., `v1.0`):
+
 ```bash
-pip install django_view_redirect_middleware
+pip install -e git+ssh://git@github.com/openlibhums/django_view_redirect_middleware.git@<tag>#egg=django_view_redirect_middleware
+
 ```
+
+## Clone and Install Locally
+
+Alternatively, you can clone the repository and install it locally:
+
+1. Clone the repository:
+   ```bash
+   git clone git@github.com:openlibhums/django_view_redirect_middleware.git
+   ```
+
+2. Navigate to the directory:
+   ```bash
+   cd django_view_redirect_middleware
+   ```
+
+3. Install the package:
+   ```bash
+   pip install .
+   ```
 
 ## Usage
 
